@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300..900;1,300..900&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-surface-variant": "#45464d", "on-tertiary-fixed": "#002113", "error": "#ba1a1a", "secondary-container": "#fd761a", "inverse-on-surface": "#eaf1ff", "outline-variant": "#c6c6cd", "on-background": "#0b1c30", "secondary-fixed": "#ffdbca", "outline": "#76777d", "surface-container-highest": "#d3e4fe", "on-error": "#ffffff", "on-tertiary-container": "#009668", "tertiary-fixed": "#6ffbbe", "surface-container": "#e5eeff", "on-surface": "#0b1c30", "tertiary-fixed-dim": "#4edea3", "inverse-primary": "#bec6e0", "on-tertiary": "#ffffff", "on-primary-fixed": "#131b2e", "surface-container-low": "#eff4ff", "tertiary-container": "#002113", "on-primary-container": "#7c839b", "primary-fixed-dim": "#bec6e0", "surface-dim": "#cbdbf5", "surface-container-high": "#dce9ff", "on-secondary-fixed-variant": "#783200", "on-secondary": "#ffffff", "surface-variant": "#d3e4fe", "surface": "#f8f9ff", "on-primary": "#ffffff", "surface-tint": "#565e74", "on-secondary-fixed": "#341100", "on-secondary-container": "#5c2400", "surface-bright": "#f8f9ff", "on-primary-fixed-variant": "#3f465c", "inverse-surface": "#213145", "secondary": "#9d4300", "error-container": "#ffdad6", "primary-fixed": "#dae2fd", "background": "#f8f9ff", "on-error-container": "#93000a", "tertiary": "#000000", "primary-container": "#131b2e", "surface-container-lowest": "#ffffff", "primary": "#000000", "secondary-fixed-dim": "#ffb690", "on-tertiary-fixed-variant": "#005236" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin-desktop": "2rem", "margin": "0.75rem", "margin-tablet": "1.25rem", "space-md": "0.75rem", "gutter-desktop": "1.5rem", "space-xs": "0.25rem", "space-2xl": "2rem", "space-lg": "1rem", "space-xl": "1.5rem", "gutter": "1rem", "space-sm": "0.5rem" }, "fontFamily": { "headline-sm": [ "Manrope" ], "body-md": [ "Hanken Grotesk" ], "title-md": [ "Manrope" ], "body-sm": [ "Hanken Grotesk" ], "headline-md": [ "Manrope" ], "body-lg": [ "Hanken Grotesk" ], "price-card": [ "Manrope" ], "badge-label": [ "Hanken Grotesk" ], "label-sm": [ "Hanken Grotesk" ], "display-lg-mobile": [ "Manrope" ], "headline-lg-mobile": [ "Manrope" ], "price-hero": [ "Manrope" ], "headline-lg": [ "Manrope" ], "display-lg": [ "Manrope" ] }, "fontSize": { "headline-sm": [ "16px", { "lineHeight": "22px", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "title-md": [ "15px", { "lineHeight": "20px", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "16px", "fontWeight": "400" } ], "headline-md": [ "20px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "700" } ], "body-lg": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ], "price-card": [ "18px", { "lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "800" } ], "badge-label": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" } ], "label-sm": [ "11px", { "lineHeight": "14px", "fontWeight": "500" } ], "display-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "800" } ], "headline-lg-mobile": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "price-hero": [ "24px", { "lineHeight": "28px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "display-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "800" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="bg-primary-container text-on-surface-variant font-body-sm text-body-sm"><div class="max-w-[1280px] mx-auto px-margin-desktop h-8 flex items-center justify-between"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs text-on-primary"><span class="material-symbols-outlined text-sm text-secondary-container">location_on</span><span class="font-label-sm text-label-sm">Deliver to <strong class="text-surface-bright">Rahul</strong> - Bengaluru 560001</span><button class="text-secondary-fixed hover:underline ml-space-xs font-label-sm text-label-sm">(Change Pincode)</button></div><span class="text-on-primary-container">|</span><div class="flex items-center gap-space-xs text-on-primary"><span class="material-symbols-outlined text-sm text-on-tertiary-container">support_agent</span><span>24x7 Helpline: <strong class="text-surface-bright">1800-209-4455</strong></span></div></div><div class="flex items-center gap-space-xl"><div class="flex items-center gap-space-xs text-on-primary hover:text-surface-bright cursor-pointer"><span class="material-symbols-outlined text-sm">translate</span><span>English / हिन्दी</span><span class="material-symbols-outlined text-sm">expand_more</span></div><a class="text-secondary-fixed hover:text-surface-bright font-label-sm text-label-sm flex items-center gap-space-xs" data-path="sell-on-bharatbazaar" href="#"><span class="material-symbols-outlined text-sm">storefront</span>Become a Seller</a></div></div></div><div class="bg-inverse-surface text-on-primary py-space-sm"><div class="max-w-[1280px] mx-auto px-margin-desktop flex items-center justify-between gap-space-xl"><div class="flex items-center gap-space-lg shrink-0"><img alt="BharatBazaar Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VBMmcJqEOp8Y0oXITTLP9vyRaIeao2fCLtr-OvJ4ALy7if3YZSI1ScWhX1QVnRA0BisdIQMPJAlTMSRs4LNipGUb52Een6-ILNt2gbioHR8TSArFHKQHt5flHhEZ6QOpD0uvec4zZv8b0yPx-OIsKlu61HESwrb07RY2Tffzb1apkuZRfcx9Xma03AFh6OnZ_5o27o-viQsUe0HYpDDzixhGIvP-0bTUEOaG1GAIdUS8-aXGemA9ZF0A"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-surface-bright">BharatBazaar</span><span class="font-badge-label text-badge-label text-secondary-container uppercase tracking-wider font-extrabold">India Ka Market</span></div></div><div class="flex-1 max-w-2xl"><div class="flex items-center bg-surface-container-lowest rounded overflow-hidden shadow-[0_1px_8px_rgba(0,0,0,0.08)]"><div class="relative bg-surface-container-low px-space-md py-space-xs flex items-center gap-space-xs text-on-surface"><select class="bg-transparent font-label-sm text-label-sm text-on-surface focus:outline-none cursor-pointer pr-space-sm"><option>All Categories</option><option>Electronics</option><option>Ethnic Wear</option><option>Kitchen</option><option>Beauty</option></select><span class="material-symbols-outlined text-sm text-on-surface-variant">expand_more</span></div><input class="w-full px-space-md py-space-xs font-body-md text-body-md text-on-surface bg-surface-container-lowest focus:outline-none placeholder:text-outline" placeholder="Search for ethnic suits, 5G mobiles, spices, home decor..." type="text"/><button class="bg-secondary-container hover:bg-secondary text-on-secondary px-space-xl py-space-sm flex items-center justify-center transition-colors shrink-0"><span class="material-symbols-outlined text-lg">search</span></button></div></div><div class="flex items-center gap-space-lg shrink-0"><a class="flex flex-col items-start px-space-sm py-space-xs rounded hover:bg-primary-container transition-colors" data-path="returns-and-orders" href="#"><span class="font-label-sm text-label-sm text-on-primary-container">Returns</span><span class="font-title-md text-title-md text-surface-bright">&amp; Orders</span></a><a class="relative flex items-center gap-space-xs px-space-sm py-space-xs rounded hover:bg-primary-container transition-colors" data-path="wishlist" href="#"><span class="material-symbols-outlined text-2xl text-surface-bright">favorite</span><span class="absolute -top-1 right-1 bg-secondary-container text-on-secondary font-badge-label text-badge-label rounded-full w-4 h-4 flex items-center justify-center">3</span><span class="hidden lg:inline font-title-md text-title-md text-surface-bright">Wishlist</span></a><a class="relative flex items-center gap-space-sm bg-primary-container px-space-md py-space-xs rounded hover:bg-on-primary-fixed-variant transition-colors" data-path="cart" href="#"><div class="relative"><span class="material-symbols-outlined text-2xl text-secondary-container">shopping_cart</span><span class="absolute -top-2 -right-2 bg-secondary-container text-on-secondary font-badge-label text-badge-label rounded-full px-1 py-0.2 flex items-center justify-center">2</span></div><div class="flex flex-col"><span class="font-badge-label text-badge-label text-on-primary-container">₹1,499</span><span class="font-title-md text-title-md text-surface-bright leading-none">Cart</span></div></a><div class="flex items-center gap-space-sm pl-space-xs py-space-xs rounded cursor-pointer hover:bg-primary-container transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAj29dOX9Xg53zo-3oqDXSMUcYD8aLW7Ua0iTmsXlmYg4KEnKQO2kt8TVo-Q96roJWRtPOAtajWL8Ulndct69ZtNInltUqwMGm-XEFRuScMBWcNoD4khzEtblsPv751qRD18-fJ9MO4zOBnkMxcCPIuU2N3JTB7qkwODDeGd13m1RoMK6AV5B8jnx948HECGa9Mwigwz9c3MFbj-BPnXuakACVQDfxa6le_JGuo-Mc5sxZ_3QK8Y-Yd"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-on-primary-container">Hello, Rahul</span><div class="flex items-center text-surface-bright font-title-md text-title-md"><span>Account &amp; Lists</span><span class="material-symbols-outlined text-xs">arrow_drop_down</span></div></div></div></div></div></div><div class="bg-surface-container-lowest text-on-surface shadow-[0_1px_4px_rgba(0,0,0,0.04)]"><div class="max-w-[1280px] mx-auto px-margin-desktop"><nav class="flex items-center gap-space-lg overflow-x-auto py-space-xs" data-active-classes="bg-surface-container text-on-surface font-headline-sm font-semibold"><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="all-deals" href="#">All Deals</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="mobiles-and-tech" href="#">Mobiles &amp; Tech</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="fashion-and-meesho-trends" href="#">Fashion &amp; Meesho Trends</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="home-and-kitchen" href="#">Home &amp; Kitchen</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="beauty-and-glow" href="#">Beauty &amp; Glow</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="bharat-grocery" href="#">Bharat Grocery</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="sell-on-bharatbazaar" href="#">Sell on BharatBazaar</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="customer-support" href="#">Customer Support</a><a class="text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm whitespace-nowrap py-space-xs px-space-sm rounded transition-colors" data-path="admin-portal" href="#">Admin Portal</a></nav></div></div></header><main class="w-full pt-[148px] bg-background min-h-[calc(100vh-148px)]"><div class="max-w-[1280px] mx-auto px-margin-desktop py-space-xl"><div class="flex flex-col w-full">
+<!-- Top Notification Flash Strip -->
+<div class="bg-secondary-container text-on-secondary px-margin-desktop py-space-xs rounded shadow-sm flex items-center justify-between mb-space-lg flex-wrap gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="font-headline-sm text-headline-sm uppercase tracking-wide">MAHA BACHAT UTSAV LIVE</span>
+<span class="hidden md:inline text-on-secondary/80 font-body-sm text-body-sm">— Bharat ka Sabse Bada Tyohar Sale</span>
+</div>
+<div class="flex items-center gap-space-md text-on-secondary">
+<div class="flex items-center gap-space-xs bg-secondary px-space-sm py-1 rounded">
+<span class="material-symbols-outlined text-sm">timer</span>
+<span class="font-label-sm text-label-sm font-bold">ENDS IN:</span>
+<span class="font-title-md text-title-md font-mono tracking-tight font-extrabold" id="header-countdown">05:32:14</span>
+</div>
+<span class="hidden sm:inline font-badge-label text-badge-label bg-surface-container-lowest text-secondary-container px-space-sm py-1 rounded font-bold uppercase tracking-wider">Extra 10% HDFC/SBI OFF</span>
+</div>
+</div>
+<!-- Hero Festive Billboard Carousel & Bank Banner Bento -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg mb-space-2xl">
+<!-- Main Carousel / Hero Card -->
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl shadow-md overflow-hidden relative group flex flex-col justify-between">
+<div class="relative w-full h-[320px] md:h-[380px] overflow-hidden">
+<div class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-100 flex flex-col justify-end p-space-xl" id="hero-slide-1">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Vibrant festive Indian Diwali Dussehra shopping sale celebration with modern smartphones, gold jewelry boxes, festive silk fabrics, and glowing diyas illuminated in warm golden amber light and regal indigo accents." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCOW6QztUugY6p1MDmv-3uuMgB0Lo1lpfizrLShls2I95dxQlOQhVvMRWmdkKso98vqUq3kPzYuqqOvyiH0LVeEkPrK1cl7PQBBtUXVPi7DhM_9nhwX2scdrZhiVChUe537q5YG2e0uTZlX9D2Wtar3N0Pj1wsx-gUYC0JHWBl2akVDJbY9pItTQ-VCCwUfDDWQFQFkTpkhu9eVlxROb6gGGP8MH53c0iTc-CHovVywBCmOyqF1GfXU')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/95 via-primary-container/50 to-transparent"></div>
+<div class="relative z-10 max-w-xl">
+<div class="flex items-center gap-space-sm mb-space-xs">
+<span class="bg-secondary-container text-on-secondary px-space-sm py-0.5 rounded font-badge-label text-badge-label uppercase font-bold tracking-wider">Festival Blockbuster</span>
+<span class="bg-surface-container-highest text-on-surface px-space-sm py-0.5 rounded font-label-sm text-label-sm font-semibold">Verified Bharat Deals</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-surface-bright leading-none mb-space-xs tracking-tight">
+              Maha Bachat Utsav: <span class="text-secondary-fixed">Up to 80% OFF</span>
+</h1>
+<p class="font-body-md text-body-md text-surface-container-highest mb-space-md line-clamp-2">
+              Pan-India authentic handlooms, 5G flagship smartphones, noise-canceling audio &amp; kitchen appliances at direct factory prices.
+            </p>
+<div class="flex flex-wrap items-center gap-space-md">
+<a class="bg-secondary-container hover:bg-secondary text-on-secondary px-space-xl py-space-sm rounded font-title-md text-title-md transition-all shadow-md flex items-center gap-space-xs" href="#product-catalog">
+<span>Shop Deals Now</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+<span class="text-surface-container-highest font-body-sm text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-tertiary-fixed text-base" style="font-variation-settings: 'FILL' 1;">verified</span>
+                Cash on Delivery Available Pan India
+              </span>
+</div>
+</div>
+</div>
+<div class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 flex flex-col justify-end p-space-xl" id="hero-slide-2">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Traditional Indian ethnic wear collection featuring exquisite Banarasi silk sarees, embroidered royal kurtas, arranged alongside sparkling bridal accessories in deep saffron and jewel tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCWLabZMWN286MZYAk8IrOAdJ3WHK9Vggr3wvPO9Ji96EQ136iE5P2p0w8Uy3L1JSNE65BuH-fJqy1mXbosFpM1NvpfXFbYz3M-A5CCiNKsqedbxFdc9dEsj6O7gri3R6wZ_DoVAwEerUuNnY6O322XDuP1qvxcZkmJZL2VIC7cQ9IOn_VKqpxFhSXrtWFEbJynTcmp3ALDnGZAgxbsiC5rdqOkCGtkKsDo3eQeaRuMVRIRUFQvOLqs')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/95 via-primary-container/60 to-transparent"></div>
+<div class="relative z-10 max-w-xl">
+<div class="flex items-center gap-space-sm mb-space-xs">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-space-sm py-0.5 rounded font-badge-label text-badge-label uppercase font-bold tracking-wider">Direct Weavers Edition</span>
+</div>
+<h2 class="font-display-lg text-display-lg text-surface-bright leading-none mb-space-xs tracking-tight">
+              Pure Silk &amp; Festive Sarees: <span class="text-secondary-container">Starting ₹499</span>
+</h2>
+<p class="font-body-md text-body-md text-surface-container-highest mb-space-md">
+              Over 25,000 artisan weaves from Varanasi, Surat, and Chanderi. Direct artisan delivery with 7-day hassle-free return window.
+            </p>
+<a class="bg-secondary-container hover:bg-secondary text-on-secondary px-space-xl py-space-sm rounded font-title-md text-title-md transition-all shadow-md inline-flex items-center gap-space-xs" href="#product-catalog" onclick="filterByCategory('Kurtas &amp; Sarees')">
+<span>Explore Ethnic Trends</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Slide controls & Bank offers ticker -->
+<div class="bg-primary-container px-space-lg py-space-sm flex items-center justify-between text-on-primary border-t border-primary-container">
+<div class="flex items-center gap-space-sm">
+<button aria-label="Slide 1" class="w-3 h-3 rounded-full bg-secondary-container slide-dot transition-all" onclick="toggleSlide(0)"></button>
+<button aria-label="Slide 2" class="w-3 h-3 rounded-full bg-surface-container-highest/40 slide-dot transition-all" onclick="toggleSlide(1)"></button>
+<span class="text-on-primary-container font-label-sm text-label-sm ml-space-sm">Verified Brand Guarantee</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-surface-container-highest">
+<span class="material-symbols-outlined text-tertiary-fixed text-sm">local_shipping</span>
+<span>Orders ₹499+ Ship Free</span>
+</div>
+</div>
+</div>
+<!-- Side Bento: Bank Offers & Savings Card -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<!-- Bank Partner Offer Box -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-badge-label text-badge-label uppercase text-secondary font-bold tracking-wider bg-secondary-fixed/50 px-space-sm py-0.5 rounded">BANK UTSAV DISCOUNTS</span>
+<span class="material-symbols-outlined text-secondary-container text-xl">credit_card</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Instant 10% Off On Leading Cards</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Save up to ₹1,500 instantly on SBI Credit &amp; HDFC Debit/Credit Cards. Flat ₹150 Cashback on all PhonePe / Google Pay UPI checkouts.
+          </p>
+<div class="bg-surface-container-low p-space-sm rounded mb-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">CODE: BHARATUTSAV</span>
+</div>
+<button class="font-label-sm text-label-sm font-bold text-secondary hover:text-secondary-container underline" onclick="copyPromoCode(this)">Copy Code</button>
+</div>
+</div>
+<div class="pt-space-sm flex items-center gap-space-sm flex-wrap text-on-surface-variant font-label-sm text-label-sm">
+<span class="bg-surface-container px-space-xs py-0.5 rounded font-bold">HDFC BANK</span>
+<span class="bg-surface-container px-space-xs py-0.5 rounded font-bold">SBI CARD</span>
+<span class="bg-surface-container px-space-xs py-0.5 rounded font-bold">UPI 0-FEE</span>
+<span class="bg-surface-container px-space-xs py-0.5 rounded font-bold">NO COST EMI</span>
+</div>
+</div>
+<!-- Live Order Social Proof Pill Widget -->
+<div class="bg-primary-container text-on-primary p-space-lg rounded-xl shadow-md flex items-center gap-space-md">
+<div class="relative shrink-0">
+<div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary-container">
+<span class="material-symbols-outlined text-2xl">flash_on</span>
+</div>
+<span class="absolute -top-1 -right-1 w-3 h-3 bg-tertiary-fixed rounded-full animate-ping"></span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed"></span>
+<span class="font-label-sm text-label-sm text-tertiary-fixed uppercase font-bold tracking-wider">Live Purchase</span>
+</div>
+<p class="font-title-md text-title-md text-surface-bright truncate font-semibold" id="live-purchase-text">Sunita from Jaipur just bought boAt Airdopes 141</p>
+<span class="font-label-sm text-label-sm text-on-primary-container">3 seconds ago • Verified COD Order</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Circular Category Rail with Quick Filters -->
+<section class="mb-space-2xl">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-1.5 h-5 bg-secondary-container rounded-full"></span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Explore Bharat Top Categories</h2>
+</div>
+<button class="font-body-sm text-body-sm text-secondary hover:text-secondary-container font-semibold" onclick="resetCategoryFilter()">View All Items</button>
+</div>
+<!-- Category scroll container -->
+<div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-space-md" id="category-rail">
+<!-- Cat 1 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="All" onclick="filterByCategory('All')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">grid_view</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">All Deals</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">80% OFF</span>
+</button>
+<!-- Cat 2 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="Mobiles" onclick="filterByCategory('Mobiles')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">smartphone</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">Mobiles</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">5G Phones</span>
+</button>
+<!-- Cat 3 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="Kurtas &amp; Sarees" onclick="filterByCategory('Kurtas &amp; Sarees')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">styler</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">Sarees &amp; Ethnic</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">From ₹399</span>
+</button>
+<!-- Cat 4 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="Footwear" onclick="filterByCategory('Footwear')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">roller_skating</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">Footwear</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">Min 50% Off</span>
+</button>
+<!-- Cat 5 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="Earbuds &amp; Smartwatches" onclick="filterByCategory('Earbuds &amp; Smartwatches')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">headphones</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">Audio &amp; Smart</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">70% Off</span>
+</button>
+<!-- Cat 6 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="Home Decor" onclick="filterByCategory('Home Decor')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">bed</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">Home Decor</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">Jaipuri Prints</span>
+</button>
+<!-- Cat 7 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="Kitchen Utensils" onclick="filterByCategory('Kitchen Utensils')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">soup_kitchen</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">Kitchen Care</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">Induction Base</span>
+</button>
+<!-- Cat 8 -->
+<button class="category-btn group flex flex-col items-center text-center p-space-sm rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all active:scale-95" data-cat="Beauty &amp; Skincare" onclick="filterByCategory('Beauty &amp; Skincare')">
+<div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-surface-bright transition-colors mb-space-xs">
+<span class="material-symbols-outlined text-2xl">spa</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface line-clamp-1">Beauty &amp; Glow</span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">Ayurvedic</span>
+</button>
+</div>
+</section>
+<!-- Interactive Filtering & Sorting Toolbar Anchor -->
+<section class="mb-space-xl" id="product-catalog">
+<div class="bg-surface-container-lowest p-space-md md:p-space-lg rounded-xl shadow-sm mb-space-lg">
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Live Instant Filter Input Simulator -->
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-lg">search</span>
+<input class="w-full bg-surface-container-low text-on-surface pl-10 pr-10 py-space-sm rounded font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest placeholder:text-outline shadow-inner" id="instant-search-input" oninput="handleInstantSearch(this.value)" placeholder="Search within 30+ festive deals (e.g., boAt, Chanderi, Cooker, Nord)..." type="text"/>
+<button class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface" id="clear-search-btn" onclick="clearSearch()">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+<!-- Sort Select & Active Count -->
+<div class="flex items-center gap-space-sm flex-wrap shrink-0">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-base">swap_vert</span>
+<span>Sort By:</span>
+</div>
+<select class="bg-surface-container-low text-on-surface px-space-md py-space-xs rounded font-title-md text-title-md focus:outline-none cursor-pointer" id="sort-selector" onchange="handleSortChange(this.value)">
+<option value="popularity">Popularity (Bestsellers)</option>
+<option value="discount">Highest Discount %</option>
+<option value="price-low">Price: Low to High</option>
+<option value="price-high">Price: High to Low</option>
+<option value="rating">Top Customer Rated</option>
+</select>
+</div>
+</div>
+<!-- Quick Toggles / Pills Rail -->
+<div class="mt-space-md pt-space-md border-t border-surface-container-low flex items-center gap-space-sm overflow-x-auto pb-space-xs">
+<span class="font-label-sm text-label-sm uppercase font-bold text-on-surface-variant shrink-0">Filter By:</span>
+<!-- Under 499 -->
+<button class="filter-pill whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm px-space-sm py-1 rounded transition-colors flex items-center gap-1" id="pill-under499" onclick="togglePriceFilter('under499')">
+<span>Under ₹499</span>
+</button>
+<!-- 499-1499 -->
+<button class="filter-pill whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm px-space-sm py-1 rounded transition-colors flex items-center gap-1" id="pill-499to1499" onclick="togglePriceFilter('499to1499')">
+<span>₹499 - ₹1,499</span>
+</button>
+<!-- 1500-4999 -->
+<button class="filter-pill whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm px-space-sm py-1 rounded transition-colors flex items-center gap-1" id="pill-1500to4999" onclick="togglePriceFilter('1500to4999')">
+<span>₹1,500 - ₹4,999</span>
+</button>
+<!-- 5000+ -->
+<button class="filter-pill whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm px-space-sm py-1 rounded transition-colors flex items-center gap-1" id="pill-above5000" onclick="togglePriceFilter('above5000')">
+<span>₹5,000+</span>
+</button>
+<!-- Fast Delivery -->
+<button class="filter-pill whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm px-space-sm py-1 rounded transition-colors flex items-center gap-1" id="pill-fast-delivery" onclick="toggleFastDelivery()">
+<span class="material-symbols-outlined text-sm text-secondary-container">local_shipping</span>
+<span>Delivery Tomorrow</span>
+</button>
+<!-- COD Eligible -->
+<button class="filter-pill whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm px-space-sm py-1 rounded transition-colors flex items-center gap-1" id="pill-cod" onclick="toggleCOD()">
+<span class="material-symbols-outlined text-sm text-on-tertiary-container">payments</span>
+<span>COD Available</span>
+</button>
+<!-- Rating 4+ -->
+<button class="filter-pill whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm px-space-sm py-1 rounded transition-colors flex items-center gap-1" id="pill-rating" onclick="toggleRating4Plus()">
+<span class="material-symbols-outlined text-sm text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4★ &amp; Above</span>
+</button>
+<button class="whitespace-nowrap text-error hover:text-error/80 font-label-sm text-label-sm px-space-sm py-1 ml-auto font-bold flex items-center gap-0.5" onclick="resetAllFilters()">
+<span class="material-symbols-outlined text-xs">restart_alt</span>
+<span>Clear Filters</span>
+</button>
+</div>
+</div>
+<!-- Live Counter and Selected Category Breadcrumb -->
+<div class="flex items-center justify-between mb-space-md px-1">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold" id="results-count-label">Showing 32 Top Bharat Products</span>
+<span class="bg-surface-container text-on-surface px-space-sm py-0.5 rounded font-label-sm text-label-sm font-semibold" id="active-category-pill">All Categories</span>
+</div>
+<div class="text-on-surface-variant font-body-sm text-body-sm flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sm text-on-tertiary-container">verified_user</span>
+<span>7-Day Direct Returns</span>
+</div>
+</div>
+<!-- Dynamic 4-Column Product Grid -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-space-md" id="product-grid">
+<!-- Products will be dynamically populated and render initially via JS for live filtering, fallback markup injected below -->
+</div>
+<!-- Empty State Container -->
+<div class="hidden bg-surface-container-lowest p-space-2xl text-center rounded-xl shadow-sm my-space-xl" id="empty-state">
+<span class="material-symbols-outlined text-5xl text-outline mb-space-sm">search_off</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">No matching products found</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">Try adjusting your filters, price range, or search keyword to discover more products.</p>
+<button class="bg-secondary-container text-on-secondary px-space-xl py-space-sm rounded font-title-md text-title-md" onclick="resetAllFilters()">
+        Reset All Search Filters
+      </button>
+</div>
+</section>
+<!-- Value Anchor Infographics Banner -->
+<section class="bg-surface-container-lowest rounded-xl shadow-sm p-space-xl mb-space-2xl">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xl items-center">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center shrink-0 text-secondary-container">
+<span class="material-symbols-outlined text-2xl">shield_person</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Direct Brand &amp; Weaver Sourced</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Zero middleman margins. Authenticity guaranteed with tamper-proof delivery codes.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center shrink-0 text-on-tertiary-container">
+<span class="material-symbols-outlined text-2xl">local_atm</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Pay Cash On Delivery (COD)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Inspect your package at your doorstep before handing over cash or UPI payment.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center shrink-0 text-secondary-container">
+<span class="material-symbols-outlined text-2xl">reply_all</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">7-Day Free Doorstep Pickup</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Did not fit or match description? Our courier picks it up directly from your home.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Cart Toast notification -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-space-md bg-inverse-surface text-inverse-on-surface px-space-lg py-space-md rounded-xl shadow-2xl" id="cart-toast">
+<span class="material-symbols-outlined text-2xl text-tertiary-fixed">check_circle</span>
+<div>
+<h5 class="font-title-md text-title-md text-surface-bright" id="toast-title">Added to your cart!</h5>
+<p class="font-body-sm text-body-sm text-outline-variant" id="toast-subtitle">Item ready for instant checkout</p>
+</div>
+<a class="bg-secondary-container hover:bg-secondary text-on-secondary px-space-md py-1 rounded font-label-sm text-label-sm font-bold uppercase transition-colors pointer-events-auto" data-path="cart" href="#">
+      View Cart
+    </a>
+</div>
+</div>
+<!-- Core Dynamic Dataset and Client Interaction Script -->
+<script>
+  // Complete catalog dataset containing 32 comprehensive products across highlighted categories
+  const productsData = [
+    {
+      id: "bb-101",
+      name: "boAt Airdopes 141 ANC True Wireless Earbuds",
+      category: "Earbuds & Smartwatches",
+      price: 1299,
+      mrp: 4490,
+      discount: 71,
+      rating: 4.3,
+      reviewsCount: "14,200",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow 11 AM",
+      cod: true,
+      tag: "Super Bestseller",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A sleek matte black set of boAt true wireless earbuds resting with its open LED battery charging case on a pristine reflective studio pedestal."
+    },
+    {
+      id: "bb-102",
+      name: "Anouk Women Chanderi Silk Saree with Blouse Piece",
+      category: "Kurtas & Sarees",
+      price: 699,
+      mrp: 2999,
+      discount: 76,
+      rating: 4.5,
+      reviewsCount: "8,940",
+      fastDelivery: false,
+      deliveryText: "Delivery by Wed, 2 days",
+      cod: true,
+      tag: "Meesho Trending: Best Value",
+      badgeColor: "bg-tertiary-fixed text-on-tertiary-fixed",
+      imagePrompt: "An elegant Indian woman draped in a rich emerald green and gold zari woven Chanderi silk saree with intricate peacock border detailing."
+    },
+    {
+      id: "bb-103",
+      name: "Pigeon Stainless Steel Induction Base Pressure Cooker 5L",
+      category: "Kitchen Utensils",
+      price: 1149,
+      mrp: 2495,
+      discount: 54,
+      rating: 4.2,
+      reviewsCount: "21,500",
+      fastDelivery: true,
+      deliveryText: "Delivery by Tomorrow",
+      cod: true,
+      tag: "Kitchen Essential",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A gleaming heavy-gauge 5-liter stainless steel induction pressure cooker with ergonomic heat-resistant handles on a modern Indian kitchen counter."
+    },
+    {
+      id: "bb-104",
+      name: "OnePlus Nord CE 4 Lite 5G (8GB RAM, 128GB)",
+      category: "Mobiles",
+      price: 17999,
+      mrp: 20999,
+      discount: 14,
+      rating: 4.4,
+      reviewsCount: "5,320",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow by 2 PM",
+      cod: true,
+      tag: "₹1,000 Bank Off",
+      badgeColor: "bg-primary-container text-surface-bright",
+      imagePrompt: "A vibrant silver-blue OnePlus 5G smartphone showcasing its sleek dual camera bump and edge-to-edge bright AMOLED punch-hole screen."
+    },
+    {
+      id: "bb-105",
+      name: "Sparx Men's Lightweight Breathable Running Shoes",
+      category: "Footwear",
+      price: 849,
+      mrp: 1399,
+      discount: 39,
+      rating: 4.2,
+      reviewsCount: "12,180",
+      fastDelivery: false,
+      deliveryText: "Free Delivery by Friday",
+      cod: true,
+      tag: "High Durability",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A pair of sporty lightweight Sparx athletic running sneakers in dual-tone charcoal and electric orange on an athletic running track."
+    },
+    {
+      id: "bb-106",
+      name: "Mamaearth Vitamin C Daily Glow Face Serum (30ml)",
+      category: "Beauty & Skincare",
+      price: 349,
+      mrp: 499,
+      discount: 30,
+      rating: 4.4,
+      reviewsCount: "7,890",
+      fastDelivery: true,
+      deliveryText: "Delivery by Tomorrow",
+      cod: true,
+      tag: "Ayurvedic Glow",
+      badgeColor: "bg-tertiary-fixed text-on-tertiary-fixed",
+      imagePrompt: "An amber dropper glass bottle of Vitamin C face serum with fresh orange slices and botanical leaves on a clean bright marble surface."
+    },
+    {
+      id: "bb-107",
+      name: "Noise ColorFit Pulse 3 Smartwatch (1.96-inch Display)",
+      category: "Earbuds & Smartwatches",
+      price: 1499,
+      mrp: 5999,
+      discount: 75,
+      rating: 4.1,
+      reviewsCount: "9,640",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow Morning",
+      cod: true,
+      tag: "75% OFF Flash",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A high-tech Noise ColorFit smart wrist watch displaying health metrics, heart rate graphs, and vivid digital time on a dark silicone strap."
+    },
+    {
+      id: "bb-108",
+      name: "Rajasthani Jaipuri Pure Cotton Double Bedsheet + 2 Covers",
+      category: "Home Decor",
+      price: 499,
+      mrp: 1599,
+      discount: 68,
+      rating: 4.6,
+      reviewsCount: "3,410",
+      fastDelivery: false,
+      deliveryText: "Delivery in 3 Days",
+      cod: true,
+      tag: "Artisan Hand-block",
+      badgeColor: "bg-tertiary-fixed text-on-tertiary-fixed",
+      imagePrompt: "A beautifully made king-size bed dressed in a traditional indigo blue and ochre Jaipuri floral block-print cotton bedsheet with coordinated pillows."
+    },
+    {
+      id: "bb-109",
+      name: "Realme Narzo 70x 5G (6GB/128GB, 45W Fast Charging)",
+      category: "Mobiles",
+      price: 12499,
+      mrp: 15999,
+      discount: 22,
+      rating: 4.3,
+      reviewsCount: "4,190",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow by 1 PM",
+      cod: true,
+      tag: "5G Budget King",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A sleek forest green Realme 5G smartphone showing its textured brushed back and ultra-thin bezels under soft studio lighting."
+    },
+    {
+      id: "bb-110",
+      name: "Libas Women Embroidered Straight Kurta with Palazzo Set",
+      category: "Kurtas & Sarees",
+      price: 1199,
+      mrp: 3499,
+      discount: 65,
+      rating: 4.4,
+      reviewsCount: "6,700",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow 5 PM",
+      cod: true,
+      tag: "Festive Ready",
+      badgeColor: "bg-secondary-fixed text-on-secondary-fixed",
+      imagePrompt: "A beautiful young Indian woman wearing a ruby red embroidered straight cut kurta and flowing palazzo pants with fine gota patti neckline."
+    },
+    {
+      id: "bb-111",
+      name: "Prestige Iris 750W Mixer Grinder with 3 Stainless Jars",
+      category: "Kitchen Utensils",
+      price: 2899,
+      mrp: 4995,
+      discount: 42,
+      rating: 4.3,
+      reviewsCount: "34,000",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow by 4 PM",
+      cod: true,
+      tag: "750W Heavy Motor",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A modern dual-tone white and blue 750W mixer grinder appliance surrounded by its polished stainless steel wet and dry grinding jars."
+    },
+    {
+      id: "bb-112",
+      name: "Bata Men Formal Slip-on Derby Shoes",
+      category: "Footwear",
+      price: 999,
+      mrp: 1899,
+      discount: 47,
+      rating: 4.2,
+      reviewsCount: "5,820",
+      fastDelivery: false,
+      deliveryText: "Delivery by Thursday",
+      cod: true,
+      tag: "Office Wear",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A pair of pristine polished black leather men's slip-on formal shoes with cushioned memory insoles positioned against a crisp slate background."
+    },
+    {
+      id: "bb-113",
+      name: "Biotique Bio Kelp Protein Shampoo For Falling Hair (650ml)",
+      category: "Beauty & Skincare",
+      price: 299,
+      mrp: 590,
+      discount: 49,
+      rating: 4.1,
+      reviewsCount: "16,300",
+      fastDelivery: true,
+      deliveryText: "Delivery by Tomorrow",
+      cod: true,
+      tag: "Natural Herbal",
+      badgeColor: "bg-tertiary-fixed text-on-tertiary-fixed",
+      imagePrompt: "A large green pump bottle of herbal seaweed protein shampoo surrounded by natural botanical leaves and clean water splashes."
+    },
+    {
+      id: "bb-114",
+      name: "Fire-Boltt Ninja Call Pro Plus 1.83-inch Bluetooth Calling",
+      category: "Earbuds & Smartwatches",
+      price: 1199,
+      mrp: 9999,
+      discount: 88,
+      rating: 4.2,
+      reviewsCount: "48,200",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow 10 AM",
+      cod: true,
+      tag: "Mega 88% OFF",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A premium smartwatch with metallic silver frame and midnight black silicone strap displaying an incoming phone call animation on screen."
+    },
+    {
+      id: "bb-115",
+      name: "Brass Diya Oil Lamp Set of 4 for Pooja & Mandir Decor",
+      category: "Home Decor",
+      price: 399,
+      mrp: 999,
+      discount: 60,
+      rating: 4.7,
+      reviewsCount: "2,190",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow",
+      cod: true,
+      tag: "Pure Brass",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A cluster of four traditional engraved golden brass oil diyas with gentle warm flames and fragrant marigold flower petals around them."
+    },
+    {
+      id: "bb-116",
+      name: "Samsung Galaxy M15 5G (6000mAh Battery, 128GB)",
+      category: "Mobiles",
+      price: 13299,
+      mrp: 16999,
+      discount: 21,
+      rating: 4.3,
+      reviewsCount: "11,200",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow by Noon",
+      cod: true,
+      tag: "6000mAh Battery",
+      badgeColor: "bg-primary-container text-surface-bright",
+      imagePrompt: "A midnight blue Samsung Galaxy 5G smartphone displaying an AMOLED screen with battery percentage graphic on a clean dark reflective plane."
+    },
+    {
+      id: "bb-117",
+      name: "Kalyani Cotton Jacquard Weave Festive Saree with Tassels",
+      category: "Kurtas & Sarees",
+      price: 499,
+      mrp: 1999,
+      discount: 75,
+      rating: 4.3,
+      reviewsCount: "9,120",
+      fastDelivery: false,
+      deliveryText: "Delivery by Friday",
+      cod: true,
+      tag: "Value Find",
+      badgeColor: "bg-tertiary-fixed text-on-tertiary-fixed",
+      imagePrompt: "A radiant saffron yellow and hot pink dual-shade cotton jacquard handloom saree with delicate gold woven motifs."
+    },
+    {
+      id: "bb-118",
+      name: "Hawkins Contura Hard Anodised Pressure Cooker 3L",
+      category: "Kitchen Utensils",
+      price: 1795,
+      mrp: 2350,
+      discount: 23,
+      rating: 4.6,
+      reviewsCount: "18,400",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow by 11 AM",
+      cod: true,
+      tag: "Hard Anodised",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A sleek black hard-anodised Hawkins Contura rounded pressure cooker with shiny stainless steel lid on a modern gas stove top."
+    },
+    {
+      id: "bb-119",
+      name: "Campus Men's Oxyfit Walking & Gym Lightweight Shoes",
+      category: "Footwear",
+      price: 799,
+      mrp: 1499,
+      discount: 46,
+      rating: 4.3,
+      reviewsCount: "19,500",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow 3 PM",
+      cod: true,
+      tag: "Top Rated",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A pair of Campus breathable mesh athletic walking shoes in navy blue and white pillowed cushion sole."
+    },
+    {
+      id: "bb-120",
+      name: "L'Oreal Paris Extraordinary Oil Hair Serum (100ml)",
+      category: "Beauty & Skincare",
+      price: 479,
+      mrp: 649,
+      discount: 26,
+      rating: 4.5,
+      reviewsCount: "14,800",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow Morning",
+      cod: true,
+      tag: "Silky Shine",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A golden glass dispenser bottle of luminous hair serum casting soft amber reflections with glistening floral extracts nearby."
+    },
+    {
+      id: "bb-121",
+      name: "Boult Audio Z40 True Wireless Earbuds (60H Playtime)",
+      category: "Earbuds & Smartwatches",
+      price: 999,
+      mrp: 4999,
+      discount: 80,
+      rating: 4.2,
+      reviewsCount: "31,000",
+      fastDelivery: true,
+      deliveryText: "Delivery by Tomorrow",
+      cod: true,
+      tag: "80% Mega Drop",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A pair of Boult white wireless in-ear earbuds placed next to an illuminated capsule-shaped case with charging indicators."
+    },
+    {
+      id: "bb-122",
+      name: "Modern 3D Mandala Laser-Cut Wooden Wall Clock (16-inch)",
+      category: "Home Decor",
+      price: 649,
+      mrp: 1999,
+      discount: 67,
+      rating: 4.5,
+      reviewsCount: "1,870",
+      fastDelivery: false,
+      deliveryText: "Delivery by Wed",
+      cod: true,
+      tag: "Handcrafted",
+      badgeColor: "bg-tertiary-fixed text-on-tertiary-fixed",
+      imagePrompt: "An intricate layered wood laser-cut mandala clock mounted on a warm textured cream wall with soft afternoon lighting."
+    },
+    {
+      id: "bb-123",
+      name: "Xiaomi Redmi 13C 5G (Starlight Silver, 128GB)",
+      category: "Mobiles",
+      price: 9999,
+      mrp: 13999,
+      discount: 28,
+      rating: 4.2,
+      reviewsCount: "8,920",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow by 1 PM",
+      cod: true,
+      tag: "Under 10k 5G",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A modern Starlight Silver Redmi 5G smartphone displaying crisp glass finish and slim flat-edge frame."
+    },
+    {
+      id: "bb-124",
+      name: "Jaipur Kurti Women Floral Printed Cotton Anarkali Suit",
+      category: "Kurtas & Sarees",
+      price: 899,
+      mrp: 2999,
+      discount: 70,
+      rating: 4.4,
+      reviewsCount: "4,650",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow",
+      cod: true,
+      tag: "Pure Cotton",
+      badgeColor: "bg-secondary-fixed text-on-secondary-fixed",
+      imagePrompt: "An Indian woman in a flared pastel sky-blue floral anarkali kurta dress with hand-embroidered dupatta on an outdoor heritage courtyard."
+    },
+    {
+      id: "bb-125",
+      name: "Milton Thermosteel Flip Lid Insulated Flask (1000ml)",
+      category: "Kitchen Utensils",
+      price: 899,
+      mrp: 1290,
+      discount: 30,
+      rating: 4.5,
+      reviewsCount: "28,900",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow by 10 AM",
+      cod: true,
+      tag: "24h Hot & Cold",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A brushed stainless steel Milton 1-liter insulated water bottle with black carrying pouch on a wooden office desk."
+    },
+    {
+      id: "bb-126",
+      name: "Woodland Men's Camel Suede Leather Casual Loafers",
+      category: "Footwear",
+      price: 2495,
+      mrp: 4195,
+      discount: 40,
+      rating: 4.4,
+      reviewsCount: "3,150",
+      fastDelivery: false,
+      deliveryText: "Free Delivery by Thursday",
+      cod: true,
+      tag: "Genuine Suede",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A rugged pair of camel tan suede leather Woodland outdoor slip-on shoes with heavy-duty rubber lug soles."
+    },
+    {
+      id: "bb-127",
+      name: "Plum Green Tea Pore Cleansing Face Wash (120ml)",
+      category: "Beauty & Skincare",
+      price: 275,
+      mrp: 375,
+      discount: 26,
+      rating: 4.4,
+      reviewsCount: "11,100",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow",
+      cod: true,
+      tag: "100% Vegan",
+      badgeColor: "bg-tertiary-fixed text-on-tertiary-fixed",
+      imagePrompt: "A fresh green cosmetic tube of cleansing green tea facial wash with soothing botanical green leaves and water droplet splash."
+    },
+    {
+      id: "bb-128",
+      name: "Fastrack Limitless FS1 Pro 1.96-inch AMOLED Curved Watch",
+      category: "Earbuds & Smartwatches",
+      price: 1999,
+      mrp: 7995,
+      discount: 75,
+      rating: 4.3,
+      reviewsCount: "13,400",
+      fastDelivery: true,
+      deliveryText: "Fastest Delivery: Tomorrow 2 PM",
+      cod: true,
+      tag: "AMOLED Curved",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A curved display Fastrack smartwatch showing a bright neon watchface against an indigo matte studio background."
+    },
+    {
+      id: "bb-129",
+      name: "Handcrafted Macrame Boho Cotton Wall Hanging Shelf",
+      category: "Home Decor",
+      price: 449,
+      mrp: 1299,
+      discount: 65,
+      rating: 4.6,
+      reviewsCount: "1,420",
+      fastDelivery: false,
+      deliveryText: "Delivery in 3 Days",
+      cod: true,
+      tag: "Artisan Craft",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A woven natural cotton macrame shelf suspended on a wall holding a tiny succulent terracotta potted plant."
+    },
+    {
+      id: "bb-130",
+      name: "Butterfly Jet Elite 750-Watt Mixer Grinder with 4 Jars",
+      category: "Kitchen Utensils",
+      price: 2999,
+      mrp: 5999,
+      discount: 50,
+      rating: 4.2,
+      reviewsCount: "16,200",
+      fastDelivery: true,
+      deliveryText: "Delivery by Tomorrow",
+      cod: true,
+      tag: "Heavy Grinding",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A powerful black and grey kitchen mixer grinder unit with four specialized stainless steel grinding and blending jars."
+    },
+    {
+      id: "bb-131",
+      name: "Khadim Men's Waterproof Soft Comfort Casual Sandals",
+      category: "Footwear",
+      price: 499,
+      mrp: 899,
+      discount: 44,
+      rating: 4.1,
+      reviewsCount: "8,200",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow",
+      cod: true,
+      tag: "Monsoon Proof",
+      badgeColor: "bg-surface-container text-on-surface",
+      imagePrompt: "A pair of durable black slip-on comfort walking sandals with ergonomic arch contouring on a light textured base."
+    },
+    {
+      id: "bb-132",
+      name: "Swiss Beauty Liquid Concealer (Light Mousse 6g)",
+      category: "Beauty & Skincare",
+      price: 199,
+      mrp: 299,
+      discount: 33,
+      rating: 4.3,
+      reviewsCount: "22,400",
+      fastDelivery: true,
+      deliveryText: "Delivery Tomorrow",
+      cod: true,
+      tag: "All-Day Wear",
+      badgeColor: "bg-secondary-container",
+      imagePrompt: "A clear acrylic tube of natural beige liquid concealer with a soft sponge applicator wand resting on soft makeup sponges."
+    }
+  ];
+
+  // Application State
+  const state = {
+    searchQuery: "",
+    selectedCategory: "All",
+    priceRange: null, // "under499", "499to1499", "1500to4999", "above5000"
+    onlyFastDelivery: false,
+    onlyCOD: false,
+    onlyRating4Plus: false,
+    sortBy: "popularity",
+    cartCount: 2,
+    wishlistItems: new Set(["bb-101", "bb-104", "bb-108"])
+  };
+
+  // DOM Elements
+  const productGrid = document.getElementById("product-grid");
+  const emptyState = document.getElementById("empty-state");
+  const searchInput = document.getElementById("instant-search-input");
+  const clearSearchBtn = document.getElementById("clear-search-btn");
+  const resultsCountLabel = document.getElementById("results-count-label");
+  const activeCategoryPill = document.getElementById("active-category-pill");
+  const cartToast = document.getElementById("cart-toast");
+
+  // Render Product Card
+  function renderCard(p) {
+    const isWishlisted = state.wishlistItems.has(p.id);
+    return `
+      <div class="product-card group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden relative" data-id="${p.id}">
+        <!-- Image & Badges Container -->
+        <div class="relative bg-surface-container-low w-full aspect-square overflow-hidden flex items-center justify-center p-space-sm">
+          <div style="background-image: url('placeholder')" data-alt="${p.imagePrompt}" class="w-full h-full bg-contain bg-center bg-no-repeat group-hover:scale-105 transition-transform duration-300"></div>
+          
+          <!-- Discount Pill Tag -->
+          <div class="absolute top-2 left-2 flex flex-col gap-1 items-start">
+            <span class="bg-secondary-container text-on-secondary font-badge-label text-badge-label font-extrabold px-space-xs py-0.5 rounded shadow-sm">
+              ${p.discount}% OFF
+            </span>
+            ${p.tag ? `<span class="${p.badgeColor} font-badge-label text-badge-label font-bold px-space-xs py-0.5 rounded shadow-sm line-clamp-1 max-w-[120px]">${p.tag}</span>` : ''}
+          </div>
+
+          <!-- Wishlist Heart Button -->
+          <button onclick="toggleWishlist('${p.id}', this)" class="absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/90 hover:bg-surface-container-lowest flex items-center justify-center text-on-surface shadow-sm transition-colors" aria-label="Add to wishlist">
+            <span class="material-symbols-outlined text-lg ${isWishlisted ? 'text-secondary-container' : 'text-on-surface-variant'}" style="${isWishlisted ? "font-variation-settings: 'FILL' 1;" : ""}">
+              favorite
+            </span>
+          </button>
+        </div>
+
+        <!-- Metadata Section -->
+        <div class="p-space-md flex-1 flex flex-col justify-between">
+          <div>
+            <!-- Category Label & Star Rating -->
+            <div class="flex items-center justify-between gap-space-xs mb-1">
+              <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider truncate">${p.category}</span>
+              <div class="bg-primary-container text-surface-bright px-1.5 py-0.5 rounded flex items-center gap-0.5 shrink-0">
+                <span class="font-label-sm text-label-sm font-bold">${p.rating}</span>
+                <span class="material-symbols-outlined text-xs text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+              </div>
+            </div>
+
+            <!-- Product Title -->
+            <h3 class="font-title-md text-title-md text-on-surface font-semibold line-clamp-2 mb-space-xs group-hover:text-secondary transition-colors" title="${p.name}">
+              ${p.name}
+            </h3>
+
+            <!-- Price & MRP Row -->
+            <div class="flex items-baseline gap-space-xs mb-space-xs flex-wrap">
+              <span class="font-price-card text-price-card text-on-surface">₹${p.price.toLocaleString('en-IN')}</span>
+              <span class="font-body-sm text-body-sm text-outline line-through">₹${p.mrp.toLocaleString('en-IN')}</span>
+              <span class="font-label-sm text-label-sm text-on-tertiary-container font-bold">Save ₹${(p.mrp - p.price).toLocaleString('en-IN')}</span>
+            </div>
+
+            <!-- Delivery & COD tags -->
+            <div class="space-y-1 mb-space-sm">
+              <div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+                <span class="material-symbols-outlined text-sm ${p.fastDelivery ? 'text-secondary-container' : 'text-on-surface-variant'}">local_shipping</span>
+                <span class="${p.fastDelivery ? 'text-secondary-container font-semibold' : ''} truncate">${p.deliveryText}</span>
+              </div>
+              <div class="flex items-center gap-1 text-on-tertiary-container font-label-sm text-label-sm">
+                <span class="material-symbols-outlined text-xs">check_circle</span>
+                <span>Free Delivery • COD Available</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instant Transaction CTAs -->
+          <div class="grid grid-cols-2 gap-space-xs pt-space-xs">
+            <button onclick="addToCart('${p.id}', '${p.name.replace(/'/g, "\\'")}')" class="bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold py-2 px-1 rounded flex items-center justify-center gap-1 transition-all active:scale-95">
+              <span class="material-symbols-outlined text-sm">shopping_cart</span>
+              <span>Add Cart</span>
+            </button>
+            <button onclick="buyNowCheckout('${p.id}', '${p.name.replace(/'/g, "\\'")}', ${p.price})" class="bg-secondary-container hover:bg-secondary text-on-secondary font-label-sm text-label-sm font-bold py-2 px-1 rounded flex items-center justify-center gap-1 transition-all shadow-sm active:scale-95">
+              <span>Buy Now</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  // Filter and Sort Engine
+  function applyFiltersAndSort() {
+    let list = [...productsData];
+
+    // Category filter
+    if (state.selectedCategory !== "All") {
+      list = list.filter(item => item.category === state.selectedCategory);
+    }
+
+    // Search query
+    if (state.searchQuery.trim().length > 0) {
+      const q = state.searchQuery.toLowerCase();
+      list = list.filter(item => 
+        item.name.toLowerCase().includes(q) || 
+        item.category.toLowerCase().includes(q) ||
+        (item.tag && item.tag.toLowerCase().includes(q))
+      );
+    }
+
+    // Price range filter
+    if (state.priceRange === "under499") {
+      list = list.filter(item => item.price <= 499);
+    } else if (state.priceRange === "499to1499") {
+      list = list.filter(item => item.price >= 499 && item.price <= 1499);
+    } else if (state.priceRange === "1500to4999") {
+      list = list.filter(item => item.price >= 1500 && item.price <= 4999);
+    } else if (state.priceRange === "above5000") {
+      list = list.filter(item => item.price >= 5000);
+    }
+
+    // Fast Delivery
+    if (state.onlyFastDelivery) {
+      list = list.filter(item => item.fastDelivery);
+    }
+
+    // COD
+    if (state.onlyCOD) {
+      list = list.filter(item => item.cod);
+    }
+
+    // Rating 4+
+    if (state.onlyRating4Plus) {
+      list = list.filter(item => item.rating >= 4.3);
+    }
+
+    // Sorting
+    if (state.sortBy === "price-low") {
+      list.sort((a, b) => a.price - b.price);
+    } else if (state.sortBy === "price-high") {
+      list.sort((a, b) => b.price - a.price);
+    } else if (state.sortBy === "discount") {
+      list.sort((a, b) => b.discount - a.discount);
+    } else if (state.sortBy === "rating") {
+      list.sort((a, b) => b.rating - a.rating);
+    } // default is popularity (dataset index)
+
+    // Render results
+    renderProductList(list);
+  }
+
+  function renderProductList(list) {
+    if (list.length === 0) {
+      productGrid.innerHTML = "";
+      emptyState.classList.remove("hidden");
+      resultsCountLabel.textContent = "0 products found";
+    } else {
+      emptyState.classList.add("hidden");
+      productGrid.innerHTML = list.map(item => renderCard(item)).join("");
+      resultsCountLabel.textContent = `Showing ${list.length} Top Bharat Products`;
+    }
+    activeCategoryPill.textContent = state.selectedCategory === "All" ? "All Categories" : state.selectedCategory;
+  }
+
+  // Interactive UI Actions
+  window.filterByCategory = function(category) {
+    state.selectedCategory = category;
+    
+    // Update rail UI states
+    document.querySelectorAll(".category-btn").forEach(btn => {
+      if (btn.getAttribute("data-cat") === category) {
+        btn.classList.add("ring-2", "ring-secondary-container");
+      } else {
+        btn.classList.remove("ring-2", "ring-secondary-container");
+      }
+    });
+
+    applyFiltersAndSort();
+  };
+
+  window.resetCategoryFilter = function() {
+    filterByCategory("All");
+  };
+
+  window.handleInstantSearch = function(val) {
+    state.searchQuery = val;
+    if (val.trim().length > 0) {
+      clearSearchBtn.classList.remove("hidden");
+    } else {
+      clearSearchBtn.classList.add("hidden");
+    }
+    applyFiltersAndSort();
+  };
+
+  window.clearSearch = function() {
+    searchInput.value = "";
+    handleInstantSearch("");
+  };
+
+  window.handleSortChange = function(sortValue) {
+    state.sortBy = sortValue;
+    applyFiltersAndSort();
+  };
+
+  window.togglePriceFilter = function(rangeKey) {
+    if (state.priceRange === rangeKey) {
+      state.priceRange = null;
+    } else {
+      state.priceRange = rangeKey;
+    }
+    updateFilterPillsUI();
+    applyFiltersAndSort();
+  };
+
+  window.toggleFastDelivery = function() {
+    state.onlyFastDelivery = !state.onlyFastDelivery;
+    updateFilterPillsUI();
+    applyFiltersAndSort();
+  };
+
+  window.toggleCOD = function() {
+    state.onlyCOD = !state.onlyCOD;
+    updateFilterPillsUI();
+    applyFiltersAndSort();
+  };
+
+  window.toggleRating4Plus = function() {
+    state.onlyRating4Plus = !state.onlyRating4Plus;
+    updateFilterPillsUI();
+    applyFiltersAndSort();
+  };
+
+  window.resetAllFilters = function() {
+    state.searchQuery = "";
+    state.selectedCategory = "All";
+    state.priceRange = null;
+    state.onlyFastDelivery = false;
+    state.onlyCOD = false;
+    state.onlyRating4Plus = false;
+    state.sortBy = "popularity";
+    
+    searchInput.value = "";
+    document.getElementById("sort-selector").value = "popularity";
+    clearSearchBtn.classList.add("hidden");
+    
+    document.querySelectorAll(".category-btn").forEach(b => b.classList.remove("ring-2", "ring-secondary-container"));
+    updateFilterPillsUI();
+    applyFiltersAndSort();
+  };
+
+  function updateFilterPillsUI() {
+    const activeClasses = ["bg-primary-container", "text-surface-bright"];
+    const defaultClasses = ["bg-surface-container-low", "text-on-surface"];
+
+    const updatePill = (id, isActive) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (isActive) {
+        el.classList.add(...activeClasses);
+        el.classList.remove(...defaultClasses);
+      } else {
+        el.classList.remove(...activeClasses);
+        el.classList.add(...defaultClasses);
+      }
+    };
+
+    updatePill("pill-under499", state.priceRange === "under499");
+    updatePill("pill-499to1499", state.priceRange === "499to1499");
+    updatePill("pill-1500to4999", state.priceRange === "1500to4999");
+    updatePill("pill-above5000", state.priceRange === "above5000");
+    updatePill("pill-fast-delivery", state.onlyFastDelivery);
+    updatePill("pill-cod", state.onlyCOD);
+    updatePill("pill-rating", state.onlyRating4Plus);
+  }
+
+  // Wishlist Toggle
+  window.toggleWishlist = function(id, btn) {
+    const icon = btn.querySelector(".material-symbols-outlined");
+    if (state.wishlistItems.has(id)) {
+      state.wishlistItems.delete(id);
+      icon.classList.remove("text-secondary-container");
+      icon.classList.add("text-on-surface-variant");
+      icon.style.fontVariationSettings = "'FILL' 0";
+    } else {
+      state.wishlistItems.add(id);
+      icon.classList.add("text-secondary-container");
+      icon.classList.remove("text-on-surface-variant");
+      icon.style.fontVariationSettings = "'FILL' 1";
+    }
+  };
+
+  // Add to Cart Interactive Toast
+  window.addToCart = function(id, name) {
+    state.cartCount++;
+    // Update shell cart badge if accessible
+    const cartCountEl = document.querySelector('a[data-path="cart"] .rounded-full');
+    if (cartCountEl) {
+      cartCountEl.textContent = state.cartCount;
+    }
+
+    // Show Toast
+    const toastTitle = document.getElementById("toast-title");
+    const toastSub = document.getElementById("toast-subtitle");
+    toastTitle.textContent = `${name.substring(0, 26)}... Added!`;
+    toastSub.textContent = `Cart item count: ${state.cartCount} • Ships directly`;
+
+    cartToast.classList.remove("translate-y-24", "opacity-0");
+    cartToast.classList.add("translate-y-0", "opacity-100");
+
+    setTimeout(() => {
+      cartToast.classList.add("translate-y-24", "opacity-0");
+      cartToast.classList.remove("translate-y-0", "opacity-100");
+    }, 3500);
+  };
+
+  // Buy Now direct simulation
+  window.buyNowCheckout = function(id, name, price) {
+    addToCart(id, name);
+    setTimeout(() => {
+      window.location.hash = "#product-catalog";
+      alert(`Proceeding to 1-Click Fast Express Checkout for: ₹${price.toLocaleString('en-IN')}\nDelivery to Rahul - Bengaluru 560001 (COD & UPI Enabled)`);
+    }, 300);
+  };
+
+  // Copy Promo Code
+  window.copyPromoCode = function(btn) {
+    navigator.clipboard?.writeText("BHARATUTSAV");
+    const orig = btn.innerText;
+    btn.innerText = "COPIED!";
+    setTimeout(() => {
+      btn.innerText = orig;
+    }, 2000);
+  };
+
+  // Banner Slides
+  let currentSlide = 0;
+  window.toggleSlide = function(idx) {
+    currentSlide = idx;
+    const slides = [document.getElementById("hero-slide-1"), document.getElementById("hero-slide-2")];
+    const dots = document.querySelectorAll(".slide-dot");
+    
+    slides.forEach((s, i) => {
+      if (i === idx) {
+        s.classList.remove("opacity-0", "pointer-events-none");
+        s.classList.add("opacity-100");
+      } else {
+        s.classList.add("opacity-0", "pointer-events-none");
+        s.classList.remove("opacity-100");
+      }
+    });
+
+    dots.forEach((d, i) => {
+      if (i === idx) {
+        d.classList.add("bg-secondary-container");
+        d.classList.remove("bg-surface-container-highest/40");
+      } else {
+        d.classList.remove("bg-secondary-container");
+        d.classList.add("bg-surface-container-highest/40");
+      }
+    });
+  };
+
+  // Auto rotate banner every 7s
+  setInterval(() => {
+    currentSlide = (currentSlide + 1) % 2;
+    toggleSlide(currentSlide);
+  }, 7000);
+
+  // Live Purchase ticker simulation
+  const sampleLiveFeed = [
+    "Sunita from Jaipur just bought boAt Airdopes 141",
+    "Vikram from Lucknow ordered Pigeon 5L Cooker",
+    "Deepak from Pune bought OnePlus Nord CE 4 Lite",
+    "Pooja from Surat just ordered Chanderi Silk Saree",
+    "Amit from Patna bought Sparx Running Shoes"
+  ];
+  let liveIndex = 0;
+  setInterval(() => {
+    liveIndex = (liveIndex + 1) % sampleLiveFeed.length;
+    const el = document.getElementById("live-purchase-text");
+    if (el) {
+      el.textContent = sampleLiveFeed[liveIndex];
+    }
+  }, 5000);
+
+  // Live Timer Countdown for Maha Bachat Utsav
+  let remainingSeconds = 5 * 3600 + 32 * 60 + 14;
+  setInterval(() => {
+    if (remainingSeconds > 0) {
+      remainingSeconds--;
+      const hrs = String(Math.floor(remainingSeconds / 3600)).padStart(2, "0");
+      const mins = String(Math.floor((remainingSeconds % 3600) / 60)).padStart(2, "0");
+      const secs = String(remainingSeconds % 60).padStart(2, "0");
+      const countdownEl = document.getElementById("header-countdown");
+      if (countdownEl) {
+        countdownEl.textContent = `${hrs}:${mins}:${secs}`;
+      }
+    }
+  }, 1000);
+
+  // Initial render on page boot
+  document.addEventListener("DOMContentLoaded", () => {
+    applyFiltersAndSort();
+  });
+  // Execute immediately in case DOMContentLoaded has already fired
+  applyFiltersAndSort();
+</script></div></main><footer class="w-full bg-inverse-surface text-inverse-on-surface"><div class="bg-primary-container py-space-xl text-on-surface-variant"><div class="max-w-[1280px] mx-auto px-margin-desktop grid grid-cols-2 md:grid-cols-5 gap-space-xl"><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-3xl text-tertiary-fixed">verified</span><div><h4 class="font-headline-sm text-headline-sm text-surface-bright">100% Genuine</h4><p class="font-body-sm text-body-sm text-on-primary-container">Direct Brand Sourcing</p></div></div><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-3xl text-tertiary-fixed">cached</span><div><h4 class="font-headline-sm text-headline-sm text-surface-bright">7-Day Easy Returns</h4><p class="font-body-sm text-body-sm text-on-primary-container">Doorstep Pickup</p></div></div><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-3xl text-secondary-container">local_shipping</span><div><h4 class="font-headline-sm text-headline-sm text-surface-bright">Free Delivery</h4><p class="font-body-sm text-body-sm text-on-primary-container">On Orders ₹499+</p></div></div><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-3xl text-tertiary-fixed">payments</span><div><h4 class="font-headline-sm text-headline-sm text-surface-bright">COD Available</h4><p class="font-body-sm text-body-sm text-on-primary-container">Pay At Your Door</p></div></div><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-3xl text-secondary-container">support</span><div><h4 class="font-headline-sm text-headline-sm text-surface-bright">24x7 Support</h4><p class="font-body-sm text-body-sm text-on-primary-container">Dedicated Toll-Free</p></div></div></div></div><div class="max-w-[1280px] mx-auto px-margin-desktop py-space-2xl"><div class="grid grid-cols-2 md:grid-cols-4 gap-space-2xl pb-space-2xl"><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-surface-bright">BharatBazaar About</span><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="about-us" href="#">About Us</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="careers" href="#">Careers</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="press-releases" href="#">Press Releases</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="bharat-impact" href="#">Bharat Impact Stories</a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-surface-bright">Help &amp; Support</span><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="payments" href="#">Payments &amp; Refund Policy</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="shipping-guide" href="#">Shipping &amp; Express Logistics</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="cancellations-returns" href="#">Cancellations &amp; Returns</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="customer-support" href="#">Customer Grievance Officer</a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-surface-bright">Consumer Policy</span><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="privacy-notice" href="#">Privacy Notice</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="security-protocols" href="#">Security &amp; Escrow</a><a class="font-body-md text-body-md text-on-primary-container hover:text-surface-bright transition-colors" data-path="sitemap" href="#">Sitemap</a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-surface-bright">Registered Office</span><p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">BharatBazaar Internet Pvt. Ltd.,<br/>Outer Ring Road, Bellandur,<br/>Bengaluru, Karnataka 560103, India<br/>CIN: U51909KA2024PTC184492</p></div></div><div class="pt-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg text-on-primary-container"><div class="flex flex-wrap items-center gap-space-md"><span class="font-label-sm text-label-sm uppercase tracking-wide">Secure Payment Partners:</span><div class="flex items-center gap-space-sm"><span class="bg-surface-container-lowest text-primary px-space-sm py-1 rounded font-badge-label text-badge-label font-bold">UPI</span><span class="bg-surface-container-lowest text-primary px-space-sm py-1 rounded font-badge-label text-badge-label font-bold">RuPay</span><span class="bg-surface-container-lowest text-primary px-space-sm py-1 rounded font-badge-label text-badge-label font-bold">VISA</span><span class="bg-surface-container-lowest text-primary px-space-sm py-1 rounded font-badge-label text-badge-label font-bold">Mastercard</span><span class="bg-surface-container-lowest text-primary px-space-sm py-1 rounded font-badge-label text-badge-label font-bold">NetBanking</span><span class="bg-surface-container-lowest text-primary px-space-sm py-1 rounded font-badge-label text-badge-label font-bold">Cash On Delivery</span></div></div><div class="font-body-sm text-body-sm text-center md:text-right">© 2025 BharatBazaar.com. All rights reserved. Made for Pan-India Commerce.</div></div></div></footer></body></html>
